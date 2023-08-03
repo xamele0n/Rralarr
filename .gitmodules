@@ -1,0 +1,12 @@
+[submodule "Prowlarr"]
+	path = Prowlarr
+	url = https://github.com/Prowlarr/Prowlarr.git
+[submodule "Radarr"]
+	path = Radarr
+	url = https://github.com/Radarr/Radarr.git
+[submodule "Sonarr"]
+	path = Sonarr
+	url = https://github.com/Sonarr/Sonarr.git
+[submodule "Lidarr"]
+	path = Lidarr
+	url = https://github.com/Lidarr/Lidarr.git

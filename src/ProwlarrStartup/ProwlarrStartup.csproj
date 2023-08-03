@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\Prowlarr\src\NzbDrone.Host\Prowlarr.Host.csproj" />
+        <ProjectReference Include="..\..\Prowlarr\src\NzbDrone.Mono\Prowlarr.Mono.csproj" />
+        <ProjectReference Include="..\..\Prowlarr\src\NzbDrone.Windows\Prowlarr.Windows.csproj" />
+        <ProjectReference Include="..\Rralarr.Common\Rralarr.Common.csproj" />
+        
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="System.Text.Encoding.CodePages" Version="7.0.0" />
+    </ItemGroup>
+
+</Project>

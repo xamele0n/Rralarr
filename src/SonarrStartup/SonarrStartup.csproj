@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\Sonarr\src\NzbDrone.Host\Sonarr.Host.csproj" />
+        <ProjectReference Include="..\..\Sonarr\src\NzbDrone.Mono\Sonarr.Mono.csproj" />
+        <ProjectReference Include="..\..\Sonarr\src\NzbDrone.Windows\Sonarr.Windows.csproj" />
+        <ProjectReference Include="..\Rralarr.Common\Rralarr.Common.csproj" />
+    </ItemGroup>
+
+</Project>

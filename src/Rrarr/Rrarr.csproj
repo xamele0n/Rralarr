@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFrameworks>net6.0</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <SelfContained>true</SelfContained>
+    </PropertyGroup>
+
+  
+    <ItemGroup Label="runtimes">   
+        <ProjectReference Include="..\LidarrStartup\LidarrStartup.csproj" />   
+        <ProjectReference Include="..\ProwlarrStartup\ProwlarrStartup.csproj" />
+        <ProjectReference Include="..\RadarrStartup\RadarrStartup.csproj" />
+        <ProjectReference Include="..\SonarrStartup\SonarrStartup.csproj" />
+    </ItemGroup>
+
+</Project>

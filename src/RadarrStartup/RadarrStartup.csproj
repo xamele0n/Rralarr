@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\Radarr\src\NzbDrone.Host\Radarr.Host.csproj" />
+        <ProjectReference Include="..\..\Radarr\src\NzbDrone.Mono\Radarr.Mono.csproj" />
+        <ProjectReference Include="..\..\Radarr\src\NzbDrone.Windows\Radarr.Windows.csproj" />
+        <ProjectReference Include="..\Rralarr.Common\Rralarr.Common.csproj" />
+      
+    </ItemGroup>
+
+</Project>
